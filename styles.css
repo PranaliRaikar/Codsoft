@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+.about{
+    max-width: 95rem;
+    margin: 0 auto;
+    width: auto;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-container img {
+    max-width: 200px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.text-container {
+    flex: 1;
+}
+
